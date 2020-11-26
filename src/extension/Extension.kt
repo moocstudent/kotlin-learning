@@ -12,5 +12,7 @@ fun File.readText(charset:Charset = Charsets.UTF_8):
 
 
 fun main(args: Array<String>) {
-    val file = File()
+    val file = File("test.txt")
+
+    println(file.readText())
 }
